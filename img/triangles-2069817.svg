@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 2560 1600" version="1.1" viewBox="0 0 2560 1600" xmlns="http://www.w3.org/2000/svg">
+ <pattern id="a" width="160" height="160" overflow="visible" patternUnits="userSpaceOnUse" viewBox="0 -160 160 160">
+  <rect y="-160" width="160" height="160" fill="none"/>
+  <polygon points="120 -40 80 -40 120 0"/>
+  <polygon points="120 0 160 0 160 -40"/>
+  <polygon points="40 -40 0 -40 40 0"/>
+  <polygon points="40 0 80 0 80 -40"/>
+  <polygon points="120 -80 120 -40 160 -80"/>
+  <polygon points="160 -120 120 -120 160 -80"/>
+  <polygon points="40 -80 40 -40 80 -80"/>
+  <polygon points="80 -120 40 -120 80 -80"/>
+  <polygon points="80 -80 120 -80 120 -120"/>
+  <polygon points="80 -40 120 -40 80 -80"/>
+  <polygon points="0 -80 40 -80 40 -120"/>
+  <polygon points="0 -40 40 -40 0 -80"/>
+  <polygon points="80 -160 80 -120 120 -160"/>
+  <polygon points="120 -120 160 -120 120 -160"/>
+  <polygon points="0 -160 0 -120 40 -160"/>
+  <polygon points="40 -120 80 -120 40 -160"/>
+ </pattern>
+ <rect width="2560" height="1600" fill="url(#a)"/>
+</svg>

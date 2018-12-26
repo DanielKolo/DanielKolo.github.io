@@ -1,0 +1,390 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    margin:0;
+    padding: 0;
+    top:0;
+    overflow-x: hidden;
+    
+}
+
+.img{
+    height: 500px;
+    width: 500px;
+}
+a{
+    padding: 0;
+    margin: 0
+}
+.bg{
+    background-image: url(../img/MainBack.svg);
+    background-size: cover;
+    color: rgba(0,0,0,.5);
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+    letter-spacing: .5em;
+
+}
+.hey{
+    font-family: 'Indie Flower', cursive;
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.LBLTEXT
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2vh;
+}
+.btn
+{
+    margin:auto;
+}
+.arrowimg{
+    position : absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom : 10px;
+    
+}
+.clouds{
+    position: absolute;
+    z-index:-1;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    height: 100px;
+    width: 200px;
+}
+@keyframes example {
+    0% { left: 0;}
+    100%{ margin-left:100%;}
+}
+.navbar-active
+{
+    color:rgba(66, 156, 48, 0.692);
+}
+.about
+{
+    margin-top: 5%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 1.5em;
+    word-spacing: 2px;
+    max-width: 690px;
+    text-align: left;
+    
+}
+.arrowDown:hover
+{
+    cursor: pointer;
+    color: black;
+}
+.aboutSec
+{
+    width:100%;
+    min-height: 500px;
+    Overflow: Hidden;
+    z-index:1;
+}
+.myPic
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.myProSec
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width:100%;
+    min-height: 500px;
+    overflow: hidden;
+}
+.ContactMESec{
+    position: relative;
+    width:100%;
+    margin-top: 100px;
+    min-height: 500px;
+}
+.con
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.projectDiv
+{
+    margin-right: 50px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    vertical-align: middle;
+}
+.projectTitle
+{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+.Onhover
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.First:hover .Onhover1
+{
+    display: block;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+.sec:hover .Onhover2
+{
+    display: block;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+.third:hover .Onhover3
+{
+    display: block;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+.getIn
+{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+}
+.proHover
+{
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+input[type=text],
+input[type=email] ,
+textarea 
+{
+    resize: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed black;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+.ContactME
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 50px;
+}
+.credits
+{
+ margin-top: 100px;
+}
+.skills
+{
+    margin: auto;
+    float: left;
+}
+.skill
+{
+    text-align: left;
+}
+.imgLil
+{
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+ li {
+    float: left;
+    font-size: 0.7em;
+}
+
+ li a {
+    display:inline-block;
+    display: block;
+    color: #277D13;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.profileWrap
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.profilePic
+{
+    background-image: url(../img/myPic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    border-radius: 1200px;
+}
+.skillPic
+{
+    background-image: url(../img/mySkills.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+    border-radius: 1200px;
+    margin-left: 40px;
+}
+
+/* Change the link color to #111 (black) on hover */
+ a:hover {
+    display: block;
+    color:rgba(66, 156, 48, 0.692);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@media only screen and (max-width:700px){
+    #navbarNav {
+        display: none;
+    }
+    #smallNav
+    {
+        display: block;
+    }
+    .navbar-n li {
+        float: none;
+    }
+}
+@media only screen and (max-width:500px){
+    .ContactME
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    .arrowimg
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:1400px){
+    .ContactME{
+        width: 70%;
+    }
+}
+.smallNav
+{
+    display: none;
+    float: left;
+    cursor: pointer;
+}
+.smallNav li
+{
+    border-bottom: 2px solid #bbb;
+    border-right: 2px solid #bbb;
+    font-size: 0.7em;
+}
+.smallNava
+{
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    font-size: 2em;
+}
+.fas
+{
+    margin-left: 20px;
+}
+.ContactDiff
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+.ContactDiffElem
+{
+    margin-left: 30px;
+    cursor: pointer;
+    color: aqua;    
+}
+.ContactDiffElem:hover
+{
+    opacity: 0.5;
+}
+.TitleColor{
+    color: #08B3E8;
+    margin-top:50px;
+}
+.LilTitle
+{
+    color:#49FF54;
+}
+.navbarNav {
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100%;
+    font-size: 2em;
+    margin:0 auto;
+    text-align:center;
+
+}​

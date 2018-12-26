@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Gradient Background</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto+Mono" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="smallNava">
+        <div class="smallNav animated bounceInLeft" id="smallNav">
+            <div style="position:fixed;"><i class="fas fa-bars" onclick="openMenu();" id="fas"></i></div>
+            <div style="margin-top: 40px;">
+                <ul class="navbar-n animated bounceInLeft" id="navbar-n" style="display: none;">
+                    <li class="">
+                        <a class="naive" id="he" href="#bg">Home
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" id="mk" href="#myProSec">My Work
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" id="aME" href="#aboutSec">About
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" id="ce" href="#ContactMESec">Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbarNav" id="NavMain">
+        <div class="animated bounceInLeft" id="navbarNav">
+            <ul class="navbar-n">
+                <li class="">
+                    <a class="navbar-active" id="home" href="#bg">Home
+                    </a>
+                </li>
+                <li class="">
+                    <a class="" id="myWork" href="#myProSec">My Work
+                    </a>
+                </li>
+                <li class="">
+                    <a class="" id="aboutME" href="#aboutSec">About
+                    </a>
+                </li>
+                <li class="">
+                    <a class="" id="contactMe" href="#ContactMESec">Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg" id="bg">
+
+        <div class="outer">
+            <div class="middle">
+                <div class="inner">
+                    <div class="hey">
+                        <h1 style="font-size: 13vh" class="hi animated bounceInDown fast"> Hi,</h1>
+                        <h2 style="font-size: 10vh" class="hey2 animated bounceInDown delay-0s fast" id="hey2">Im
+                            Daniel</h2>
+                        <h4 class="LBLTEXT" id="LBLTEXT"></h4>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-primary btn-lg animated bounceInLeft delay-3-5s" onclick="contactClick('#ContactMESec');">Contact
+                        Me</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrowimg animated bounceInDown delay-4s slow ">
+            <i class="arrowDown fas fa-chevron-circle-down fa-3x animated bounce infinite slow" onclick="contactClick('#myProSec');"></i>
+        </div>
+
+    </div>
+    <section id="myProSec" class="myProSec">
+        <h1 class="TitleColor">My Projects</h1>
+        <br>
+        <br>
+        <br>
+        <div class="con">
+            <div class="proHover First animated bounceInUp">
+                <div class="projectTitle LilTitle"> The T-shirt Market </div>
+                <div class="projectDiv">
+                    <img src="img/Tshirt.jpg">
+                </div>
+                <div class="Onhover Onhover1 animated fadeIn fast">
+                    <div style="color:#28a745; margin-top: 40px ; opacity: 100">
+                        <p>Responsive T-shirt Market</p>
+                        <p>Shopping cart , Order Placing </p>
+                        <p>Authentication And much more </p>
+                        <p>Made with React 16 And Redux</p>
+                    </div>
+                    <div>
+                        <button type="button" class="getIn btn btn-outline-success" onclick="location.href='https://market-ed035.firebaseapp.com'">Get
+                            In</button>
+                    </div>
+                </div>
+            </div>
+            <div class="proHover sec animated bounceInUp">
+                <div class="projectTitle LilTitle "> My Music Player</div>
+                <div class="projectDiv">
+                    <img src="img/Music.jpg">
+                </div>
+                <div class="Onhover Onhover2 animated fadeIn fast">
+                    <div style="color:#28a745; margin-top: 40px ; opacity: 100">
+                        <p>Responsive Music Player</p>
+                        <p>Listen to the best hits </p>
+                        <p>add to playlist and favorite </p>
+                        <p>Made with AngularJs and Php</p>
+                    </div>
+
+                    <button type="button" class="getIn btn btn-outline-success" onclick="location.href='https://danielsmusic.000webhostapp.com/login'">Get
+                        In</button>
+                </div>
+            </div>
+            <div class="proHover third animated bounceInUp">
+                <div class="projectTitle LilTitle"> The Recipe Book</div>
+                <div class="projectDiv">
+                    <img src="img/Recipe.jpg">
+                </div>
+                <div class="Onhover Onhover3 animated fadeIn fast">
+                    <div style="color:#28a745; margin-top: 40px ; opacity: 100">
+                        <p>My latest project</p>
+                        <p>Create and Edit Recipes</p>
+                        <p>Made with Angular 2</p>
+                        <p>*Not responsive yet</p>
+                    </div>
+                    <div>
+                        <button type="button" class="getIn btn btn-outline-success" onclick="location.href='https://recipebook-3d06f.firebaseapp.com/recipes'">
+                            Get In
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
+    <br>
+    <hr width="70%">
+    <section id="aboutSec" class="aboutSec">
+        <h1 class="TitleColor">About Me</h1>
+        <div id="about" class="about">
+            <div class="profileWrap">
+                <div class="profilePic">
+
+                </div>
+                <div>
+                    <p>
+                        <h2 style="text-align:center;" class="LilTitle"> HEY! </h2>
+                    </p>
+                    <p class="LilTitle"> I'm Daniel </p>
+                    <p> And i'm a self taught developer </p>
+                    <p class="LilTitle"> Based in Israel </p>
+                    <p>I have a passion for coding</p>
+                    <p class="LilTitle">I make responsive websites</p>
+                    <p>Contact me , tell me your idea</p>
+                    <p class="LilTitle">And together the sky's the limit.</p>
+                </div>
+            </div>
+            <br>
+            <div class="skills">
+                <div class="profileWrap">
+                    <div>
+                        <h4 class="LilTitle">My Skills And Tools:</h4>
+                        <div class="skill"> <img src="img/checkmark.png"> HTML 5 , CSS 3 , JAVASCRIPT </div>
+                        <div class="skill"> <img src="img/checkmark.png"> REACT 16 , REDUX </div>
+                        <div class="skill"> <img src="img/checkmark.png"> ANGULARJS , ANGULAR 2 </div>
+                        <div class="skill"> <img src="img/checkmark.png"> Basic PHP </div>
+                        <div class="skill"> <img src="img/checkmark.png"> BOOTSTRAP </div>
+                    </div>
+                    <div class="skillPic">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr width="70%">
+    <section id="ContactMESec" class="ContactMESec">
+        <h1 class="TitleColor"> Contact Me </h1>
+        <div class="ContactME">
+            <div style="text-align: left;position: relative; width: 50%;">
+                <h2 class="LilTitle"> Get in Touch </h2>
+                <p>Whether you would like my services for a project,
+                    <p>get extra information on any of my work,</p>
+                    <p>hire me for a job</p>
+                    <p>or just say hello then I would love to hear from you.</p>
+            </div>
+            <form onsubmit="onSubmitHandler(event)">
+                <h3 class="LilTitle">Say Hello:</h1>
+                    <br>
+                    <input type="text" id="Name" required placeholder="Name">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="email" id="Email" required placeholder="email">
+                    <br>
+                    <br>
+                    <br>
+                    <textarea placeholder="message" id="Content" rows="6" required></textarea>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn btn-outline-success">submit</button>
+            </form>
+
+        </div>
+    </section>
+    <section id="credits" class="credits">
+        <div class="ContactDiff">
+            <i class="ContactDiffElem fab fa-facebook-square fa-2x animated bounceInUp" onclick="location.href='https://www.instagram.com/'">
+            </i>
+            <i class="ContactDiffElem fab fa-github fa-2x animated bounceInUp" onclick="location.href='https://github.com/DanielKolo/'"></i>
+            <i class="ContactDiffElem fab fa-linkedin fa-2x animated bounceInUp" onclick="location.href='https://www.linkedin.com/in/daniel-kolosovski-6729a1177/'"></i>
+        </div>
+        <br>
+        <h7>This Website Made With HTML5 , CSS3 And JS</h7>
+        <br>
+        <br>
+        <h7>DANIEL KOLOSOVSKI@2018</h7>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy "
+        crossorigin="anonymous "></script>
+    <script type="text/javascript " src="./javascript/script.js "></script>
+</body>
+
+</html>
